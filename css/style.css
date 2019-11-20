@@ -1,0 +1,141 @@
+body {
+	background: #71a3f5;
+	padding: 0;
+	margin: 0;
+	 font-family: font-family: New Times Roman, 'Montserrat', sans-serif;
+	  color:#fff;
+
+}
+.phone {
+	color: white;
+	font-size: 20px;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.container {
+	width: 1140px;
+	padding-left: 0px;
+	margin: 0 auto;
+}
+
+div, a {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul, li {
+	display: block;
+}
+nav {
+	display: flex;
+}
+.menu {
+	display: flex;
+	   margin-left: 100px;
+	   margin-top: 50px;
+}
+.menu li a {
+    color: white;
+    padding: 12px ;
+}
+.menu li {
+    font-size: 20px;
+    margin-right: 45px;
+
+}
+.menu li a:hover {
+    color:#090b0f;
+    border-top:  1px solid #c22f60;
+    border-bottom:  1px solid #c22f60;
+    background: #0651d1;
+}
+.header {
+	display: flex;
+	background: #3381ff;
+	margin: 15px;
+	margin-top: 10px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	border-radius: 30px;
+	background-image: url(../img/background-header.png);
+}
+@media screen and (max-width: 50%) {
+.header{
+	flex-direction: column;
+}
+}
+.welcome2 h1 {
+    font-size: 37px;
+    font-weight: 900;
+}
+.welcome  {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+	padding-left: 15%;
+	margin: 0 auto;
+}
+.picture {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.picture-center {
+	display: block;
+	margin: auto;
+	border-radius: 30px;
+}
+.form {
+    font-size: 17px; 
+	max-width: 300px;
+	margin: auto;
+	border: 2px solid #3381ff;
+	padding: 2rem;
+	text-transform: uppercase;
+	background: #3381ff;
+	border-radius: 30px;
+	margin-top: -250px; 
+}
+input{
+	display: block;
+	width: 100%;
+}
+#registration{
+	border: 0;
+	background: #095b99;
+	padding:1rem ;
+	color: white;
+	width: auto;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+#registration:hover {
+	background: #240ac9;
+	border: 2px solid #240ac9;
+}
+#registration-students{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 0;
+
+}
+.form:hover{
+	border: 5px solid #3381ff;
+}
+.form-div{
+	margin-bottom: 50px;
+	margin-right: 3%; 
+	margin-top: 100px;
+}
+.img-regisrtation{
+       display: flex;
+       width: 40%;
+       margin-left: 10%;
+}
+@media screen and (max-width: 600px){
+	.login{
+		flex-direction: column;
+	}
+}
