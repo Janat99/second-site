@@ -2,7 +2,7 @@ body {
 	background: #71a3f5;
 	padding: 0;
 	margin: 0;
-	 font-family: font-family: New Times Roman, 'Montserrat', sans-serif;
+	 font-family:   Times New Roman, 'Montserrat', sans-serif;
 	  color:#fff;
 
 }
@@ -87,7 +87,7 @@ nav {
 	border-radius: 30px;
 }
 .form {
-    font-size: 17px; 
+    font-size: 17px;
 	max-width: 300px;
 	margin: auto;
 	border: 2px solid #3381ff;
@@ -95,7 +95,7 @@ nav {
 	text-transform: uppercase;
 	background: #3381ff;
 	border-radius: 30px;
-	margin-top: -250px; 
+	margin-top: -250px;
 }
 input{
 	display: block;
@@ -126,7 +126,7 @@ input{
 }
 .form-div{
 	margin-bottom: 50px;
-	margin-right: 3%; 
+	margin-right: 3%;
 	margin-top: 100px;
 }
 .img-regisrtation{
